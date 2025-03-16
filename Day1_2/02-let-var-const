@@ -1,0 +1,12 @@
+const browserVersion = "chrome";
+
+function getBrowserVersion() {
+    let browserVersion = "Firefox";
+    if (browserVersion.startsWith("chrome")) {
+              console.log("browser version inside if block " + browserVersion);
+    }
+    console.log("browser version outside block  " + browserVersion);
+    
+}
+getBrowserVersion();
+console.log(browserVersion);
